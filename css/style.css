@@ -241,10 +241,11 @@ p {
     font-weight: 600;
 }
 
-.icons svg{
+.icons a svg{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+    color: #000000;
 }
 
 @media(max-width: 700px) {
