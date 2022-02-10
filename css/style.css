@@ -246,9 +246,10 @@ p {
     cursor: pointer;
     padding: 18px 0;
     color: #000000;
+    text-decoration: none;
 }
 
-.icons a:visited{
+.icons a:visited svg{
     color: #000000;
 }
 
