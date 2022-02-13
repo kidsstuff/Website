@@ -97,14 +97,6 @@ nav img {
 }
 
 /* Projects */
-
-.projects {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
 h1 {
     font-size: 36px;
     font-weight: 600;
@@ -124,35 +116,15 @@ p {
     justify-content: space-between;
 }
 
-.projects-col {
-    flex-basis: 31%;
-    background: #e5f9fd;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
 
-.projects h3 {
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
-
-.projects-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-/* Posts */
-.posts {
+.projects {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.posts-col {
+.projects-col {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -160,11 +132,11 @@ p {
     overflow: hidden;
 }
 
-.posts-col:hover {
+.projects-col:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.posts-col img {
+.projects-col img {
     width: 100%;
     display: block;
 }
@@ -200,41 +172,33 @@ p {
     bottom: 49%;
     opacity: 1;
 }
-p {
-    line-height: 22px;
-    padding: 10px;
-}
 
-/* Writeups */
-
-.writeups {
+/* Posts */
+.posts{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.writeups-col {
+.posts-col {
     flex-basis: 31%;
+    background: #e5f9fd;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
 }
 
-.writeups-col img {
-    width: 100%;
-    border-radius: 10px;
+.posts h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
 }
 
-.writeups-col p {
-    padding: 0;
-}
-
-
-.writeups-col h3 {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
+.posts-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
 /* Footer */
@@ -248,33 +212,6 @@ p {
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
-}
-
-ul.social_icon {
-     text-align: center;
-}
-
-ul.social_icon li {
-     display: inline-block;
-     margin: 0 3px;
-}
-
-ul.social_icon li a {
-     background: #fff;
-     box-shadow: #ddd 0px 0px 10px 0px;
-     font-size: 22px;
-     padding-top: 5px;
-     border-radius: 50px;
-     width: 50px;
-     height: 50px;
-     display: inline-block;
-     color: #000000;
-}
-
-ul.social_icon li a:hover {
-     background: #C65E76;
-     color: #fff;
-
 }
 
 .icons a svg{
