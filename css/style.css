@@ -4,6 +4,7 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Header */
 .header {
     min-height: 100vh;
     width: 100%;
@@ -101,7 +102,7 @@ nav img {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding: 100px;
+    padding-top: 100px;
 }
 
 h1 {
@@ -111,7 +112,7 @@ h1 {
 
 p {
     color: #777777;
-    font-size: 14;
+    font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -159,6 +160,10 @@ p {
     overflow: hidden;
 }
 
+.posts-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
 .posts-col img {
     width: 100%;
     display: block;
@@ -191,9 +196,13 @@ p {
     transition: 0.5s;
 }
 
-.layer:hover h3{
+.layer:hover h3 {
     bottom: 49%;
     opacity: 1;
+}
+p {
+    line-height: 22px;
+    padding: 10px;
 }
 
 /* Writeups */
@@ -241,26 +250,41 @@ p {
     font-weight: 600;
 }
 
+ul.social_icon {
+     text-align: center;
+}
+
+ul.social_icon li {
+     display: inline-block;
+     margin: 0 3px;
+}
+
+ul.social_icon li a {
+     background: #fff;
+     box-shadow: #ddd 0px 0px 10px 0px;
+     font-size: 22px;
+     padding-top: 5px;
+     border-radius: 50px;
+     width: 50px;
+     height: 50px;
+     display: inline-block;
+     color: #000000;
+}
+
+ul.social_icon li a:hover {
+     background: #C65E76;
+     color: #fff;
+
+}
+
 .icons a svg{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
     color: #000000;
+    text-decoration: none;
 }
 
-@media(max-width: 700px) {
-    .text-box h1 {
-        font-size: 20px;
-    }
-
-    .text-box p {
-        font-size: 10px;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-}
 
 /* About Me page */
 
@@ -376,4 +400,19 @@ p {
 
 .comment-form button {
     margin: 10px 0;
+}
+
+/* Mobile-Friendly */
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .text-box p {
+        font-size: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
 }
